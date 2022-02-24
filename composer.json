@@ -1,0 +1,19 @@
+{
+    "name": "shamir/rt-external-checkout",
+    "description": "WordPress plugin allow customers to checkout from external website",
+    "type": "wordpress-plugin",
+    "license": "GPLv2","authors": [{
+        "name":"Md Shamir",
+        "email": "developer@shamir.tech"
+    }],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "RTE\\Checkout\\": "includes/"
+        },
+        "files": [
+            "includes/functions.php"
+        ]
+    }
+}
